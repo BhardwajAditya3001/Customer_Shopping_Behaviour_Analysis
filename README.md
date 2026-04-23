@@ -14,7 +14,7 @@ This project analyzes customer shopping behavior using transactional data from 3
 
 ⚙️ Tech Stack
 * Python (Pandas, NumPy): Data cleaning & feature engineering
-* PostgreSQL: Business analysis using SQL
+* SQL: Business analysis using SQL
 * Power BI: Interactive dashboard & visualization
 
 🔍 Workflow
@@ -39,6 +39,6 @@ This project analyzes customer shopping behavior using transactional data from 3
 
 📂 Files
 * Python notebook (EDA & preprocessing)
-* SQL analysis (PostgreSQL)
+* SQL analysis
 * Power BI dashboard (.pbix)
 * Project report & presentation
