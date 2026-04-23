@@ -14,7 +14,7 @@ where discount_applied = 'Yes'
 and purchase_amount > (select avg(purchase_amount) from customer);
 
 --TOP 5 PRODUCTS BASED ON THEIR AVERAGE RATING
-select item_purchased, ROUND(avg(review_rating)::numeric, 2) as rating
+select item_purchased, ROUND(avg(review_rating), 2) as rating
 from customer
 group by item_purchased
 order by rating desc
