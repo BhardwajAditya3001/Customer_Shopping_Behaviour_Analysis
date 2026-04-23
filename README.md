@@ -13,14 +13,13 @@ This project analyzes customer shopping behavior using transactional data from 3
 * Missing Values: 37 (handled using median imputation)
 
 ⚙️ Tech Stack
-* Python (Pandas, NumPy): Data cleaning & feature engineering
+* Python (Pandas): Data cleaning
 * SQL: Business analysis using SQL
 * Power BI: Interactive dashboard & visualization
 
 🔍 Workflow
 * Cleaned and preprocessed data in Python
-* Performed feature engineering (age groups, purchase frequency)
-* Loaded data into PostgreSQL for structured querying
+* Loaded data into SQL for structured querying
 * Built Power BI dashboard to visualize insights
 
 📈 Key Insights
